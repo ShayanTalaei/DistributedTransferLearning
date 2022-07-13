@@ -3,8 +3,8 @@ import torch
 class Server():
 
 
-    def __init__(self):
-        self.model = None
+    def __init__(self, model):
+        self.model = deep
         self.received_state_dicts = []
 
     def get_model(self):
